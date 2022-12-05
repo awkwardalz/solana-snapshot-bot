@@ -1,0 +1,27 @@
+{
+  "name": "solana-snapshot-bot",
+  "version": "1.0.0",
+  "description": "A bot to fetch solana NFT sales on ME and uses the NFTPort API for holders' snapshot",
+  "main": "get_MEactivities.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node get_NFTport_slug.js"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "nftport",
+    "magiceden"
+  ],
+  "author": "awkwardalz",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "json2csv": "^5.0.7",
+    "node-fetch": "^2.6.7",
+    "simple-json-db": "^2.0.0"
+  },
+  "devDependencies": {}
+}
