@@ -1,6 +1,7 @@
 const fetch = require("node-fetch");
 const JSONdb = require('simple-json-db');
 const fs = require('fs');
+require('dotenv').config()
 const { parse } = require('json2csv');
 const filename = 'json/results.json';
 const filename2 = "csv/csv.csv"
