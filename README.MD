@@ -7,12 +7,12 @@ Using ME API (no API key required) and NFTPort API (new).
 
 ### Setting up
 
-* Get NFTPort API Key.
+* Get [NFTPort API Key](https://dashboard.nftport.xyz/).
 * Run get_NFTport_slug.js to get the collection slug.
 * Set up .env file:
 ```
 ME_COLLECTION_SLUG=""
-NFTPORT_COLLECTION_SLUG=""   // 
+NFTPORT_COLLECTION_SLUG=""
 NFTPORT_API_KEY=""
 ```
 
